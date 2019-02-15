@@ -1,0 +1,27 @@
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0.25fr;
+    padding-left: 0;
+    padding-right: 0; } }
+
+.item {
+  width: 23.7288135593%;
+  clear: right;
+  float: left;
+  margin-left: 0;
+  margin-right: 1.6949152542%; }
+  @supports (display: grid) {
+    .item {
+      grid-columns: span 3; } }
+
+.item-2 {
+  width: 15.2542372881%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+  @supports (display: grid) {
+    .item-2 {
+      grid-columns: 1/span 2; } }
