@@ -1,0 +1,15 @@
+{
+  "name": "singularity-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Altmann <marcaltmann@posteo.de>",
+  "license": "ISC",
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "singularitygs": "^1.8.0"
+  }
+}
